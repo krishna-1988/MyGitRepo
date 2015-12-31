@@ -10,4 +10,10 @@ public class BasicFileOperation {
         int sumValue = this.a+this.b;
         return sumValue;
     }
+    int sub(int a,int b){
+        this.a = a;
+        this.b = b;
+        int subValue = this.a - this.b;
+        return  subValue;
+    }
 }
