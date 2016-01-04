@@ -7,5 +7,9 @@ public class SimpleMath {
         int b = 5;
         System.out.println("The sum is: "+(a+b));
         System.out.println("The product is: "+(a*b));
+        for(int i = 0;i<a;i++){
+            b = b + i;
+        }
+        System.out.println("The value of b: "+b);
     }
 }
