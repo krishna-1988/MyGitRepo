@@ -12,7 +12,7 @@ public class LStringUsage {
         String str = "str";
         string.forEach((String value) -> System.out.println(value) );
         for(String value : string) {
-            if (value.equalsIgnoreCase(str)) {
+            if (value.equals(str)) {
                 System.out.println("Value is same");
             }
         }
